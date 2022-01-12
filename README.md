@@ -2,15 +2,20 @@
 
 This is a very simple script that takes the file subscriber-list.csv which you can download from Twitch Analytics and adds all of the usernames to a txt file separated by a space. 
 
-
-
-
 ## .env File Setup
 
-Add a .env file with the following values to add the file locations so that you can easily change these whenever if necessary.
+Add a .env file with the following values. If you do not need a value simply leave it blank.
 
 ``` .env
-subListCSV:VALUE
-subListTXT:VALUE
-
+# File Locations
+SUBLISTCSV=""
+SUBLISTTXT=""
+# Streamer Account
+STREAMER=""
+# Bot Account
+BOT=""
 ```
+
+## Potential Future Updates
+
+I could make it so that it works with the [Twitch API - GET Broadacast Subscriptions](https://dev.twitch.tv/docs/api/reference#get-broadcaster-subscriptions) and grabs the list from there to completely bypass the need to download the csv file each time. For now this works for me. I can definitely expand upon functionality in the future.
