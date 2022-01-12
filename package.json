@@ -1,0 +1,24 @@
+{
+  "name": "regenerate-sub-list",
+  "version": "1.0.0",
+  "description": "generate a sub list of usernames from subscriber-list.csv",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpistemicPolymath/updateTwitchSubList.git"
+  },
+  "author": "EpistemicPolymath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpistemicPolymath/updateTwitchSubList/issues"
+  },
+  "homepage": "https://github.com/EpistemicPolymath/updateTwitchSubList#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^11.0.0"
+  }
+}
