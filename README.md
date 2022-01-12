@@ -1,8 +1,17 @@
 # About updateTwitchSubList
 
-This is a very simple script that takes the file subscriber-list.csv which you can download from Twitch Analytics and adds all of the usernames to a txt file separated by a space. 
+This is a very simple script that takes the file subscriber-list.csv which you can download from Twitch Analytics and adds all of the usernames to a txt file separated by a space.
 
-## .env File Setup
+
+## Setup
+
+```
+git clone https://github.com/EpistemicPolymath/updateTwitchSubList.git
+cd updateTwitchSubList/
+npm install
+```
+
+### .env File Setup
 
 Add a .env file with the following values. If you do not need a value simply leave it blank.
 
@@ -14,6 +23,12 @@ SUBLISTTXT=""
 STREAMER=""
 # Bot Account
 BOT=""
+```
+
+### Run the script
+
+```
+node main.js
 ```
 
 ## Potential Future Updates
